@@ -1,0 +1,59 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.flex-container {
+    display: flex;
+    width: 100%;
+    background-color: purple;
+}
+header {
+    background-color: cornflowerblue;
+    flex: 1 100%;
+    margin: 15px 15px 0px 15px;
+    padding:2px;
+}
+
+.navbar {
+    background-color: cornflowerblue;
+    flex:1;
+    flex-direction: column;
+    padding:2px;
+    margin: 15px 0px 15px 15px;
+}
+.content {
+    background-color: cornflowerblue;
+    flex:4;
+    padding:2px;
+    margin:15px;
+}
+.ads {
+    display:flex;
+    flex-direction: column;
+    background-color: cornflowerblue;
+    flex:2;
+    margin: 15px 15px 15px 0px;
+}
+.ad {
+    background-color: green;
+    flex 1 1 auto;
+    margin: 5px;
+    padding:5px;
+}
+
+footer {
+    background-color: cornflowerblue;
+    flex: 1 100%;
+    margin: 0px 15px 15px 15px;
+    padding:2px;
+}
+button {
+  width:80%;
+}
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}

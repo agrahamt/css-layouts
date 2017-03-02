@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.flex-container {
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 53vw;
+    width: 53vw;
+    background-color: black;
+    padding:10px;
+}
+.check0 {
+  background-color:#ffffcc;
+  flex: .1 10%
+}
+.check1 {
+  background-color:#663300;
+  flex: .1 10%
+}
